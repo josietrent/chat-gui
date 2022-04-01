@@ -1,6 +1,6 @@
-# Destiny.gg Chat GUI
+# Libby Shimmz Chat GUI
 
-Source code for the chat gui [www.destiny.gg](http://www.destiny.gg/)
+Source code for the chat gui [libbyshimmz.com](http://libbyshimmz.com/chat)
 This is a work in progress!
 
 ## License
@@ -34,12 +34,3 @@ default `empty`
 
 `t`: template
 [EMBED | STREAM] default `embed`
-
-`f`: font scale
-only works on STREAM. [1 ... 10] default `1`
-
-e.g. Connect to destiny.gg, with defaults
-`http://localhost:8282/index.htm?u=wss://www.destiny.gg/ws`
-
-e.g. Connect to destiny.gg with the stream template
-`http://localhost:8282/index.htm?u=wss://destiny.gg/ws&t=stream`
